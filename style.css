@@ -162,3 +162,39 @@ footer {
 #myBtn:hover {
   background-color: #0d7e7c; /* Add a dark-grey background on hover */
 }
+
+/* very large view */
+@media screen and (min-width: 1400px) {
+  .icon-section {
+    width: 25%;
+  }
+}
+
+/* Tablet view */
+@media screen and (max-width: 900px) {
+  .icon-section {
+    width: 75%;
+  }
+}
+
+/* Mobile view */
+@media screen and (max-width: 480px) {
+  .icon-elem {
+    padding: 26px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+
+  .heading {
+    margin: 10px 5px 10px 5px;
+  }
+}
+
+/* Tiny screens */
+@media screen and (max-width: 340px) {
+  .icon-elem  {
+    padding: 10px;
+  }
+}

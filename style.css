@@ -85,16 +85,13 @@ nav ul li {
 	color: #d9534f;
 }
 
-li:hover{
-	color: #f9f9f9;
-}
-
 nav ul li a {
 	color: WHITE;
 	text-decoration: none;
 }
 
-/*a:link {
+
+a:link {
     color: #15c8c5;
 }
 
@@ -104,7 +101,7 @@ a:visited {
 
 a:hover {
     color: #0d7e7c;
-}*/
+}
 
 .flexbox {
   display: flex;
@@ -135,12 +132,6 @@ footer {
 	color: whitesmoke;
 	font-size: 16px;
 	font-family: "Cabin", sans-serif;
-}
-
-.epic-bluegreen-gradient {
-	background: -webkit-linear-gradient(360deg, #01a99c 10%, #0698b1 360%); /* Chrome 10+, Saf5.1+ */
- 	background: -moz-linear-gradient(360deg, #01a99c 10%, #0698b1 360%); /* FF3.6+ */
-	background: linear-gradient(360deg, #01a99c 10%, #0698b1 360%); /* W3C */
 }
 
 #myBtn {

@@ -46,34 +46,17 @@ main p {
     margin-bottom: 0px;
 	padding: 7px;
 }
-main ul{
-    padding-top: 0px;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
 nav {
-    display: block;
-	width: 80%;
-	margin: auto;
 	background-color: #999999;
-	font-size: 26px;
-	font-family: "Alef", sans-serif;
-	text-align: center;
 }
 
 .navHolder {
-	width: auto;
-	padding-top: 1%;
-    padding-bottom: 1%
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
-.navSelected {
-	font-weight: bolder;
-    font-variant: small-caps;
-}
-
-nav ul {
+/* nav ul {
 	list-style: none;
 	display: inline;
 }
@@ -88,7 +71,7 @@ nav ul li {
 nav ul li a {
 	color: WHITE;
 	text-decoration: none;
-}
+} */
 
 
 a:link {
@@ -106,8 +89,8 @@ a:hover {
 .flexbox {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: row wrap;
 }
 
 .flexbox > div {
@@ -152,40 +135,4 @@ footer {
 
 #myBtn:hover {
   background-color: #0d7e7c; /* Add a dark-grey background on hover */
-}
-
-/* very large view */
-@media screen and (min-width: 1400px) {
-  .icon-section {
-    width: 25%;
-  }
-}
-
-/* Tablet view */
-@media screen and (max-width: 900px) {
-  .icon-section {
-    width: 75%;
-  }
-}
-
-/* Mobile view */
-@media screen and (max-width: 480px) {
-  .icon-elem {
-    padding: 26px;
-  }
-
-  footer {
-    font-size: 20px;
-  }
-
-  .heading {
-    margin: 10px 5px 10px 5px;
-  }
-}
-
-/* Tiny screens */
-@media screen and (max-width: 340px) {
-  .icon-elem  {
-    padding: 10px;
-  }
 }
